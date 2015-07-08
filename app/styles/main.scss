@@ -36,6 +36,11 @@ p {
 /* Header */
 
 .main-header {
+    height:100px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
     .logo {
         
     }
@@ -52,6 +57,7 @@ p {
 
 .hero {
     position:relative;
+    height:750px;
     .video {
         position:absolute;
     }
@@ -66,24 +72,25 @@ p {
 /* Logos */
 
 .logos {
-    
+    height:120px;
 }
 
 /* Welcome */
 
 .welcome {
-    
+    height:840px;
 }
 
 /* Intro */
 
 .intro {
-    
+    height:690px;
 }
 
 /* Work */
 
 .work {
+    height:930px;
     .work-nav {
         li {
         }
@@ -95,6 +102,7 @@ p {
 /* Core Competencies */
 
 .competencies {
+    height:830px;
     .skills li {
         p {
         }
@@ -113,6 +121,7 @@ p {
 /* Worked With */
 
 .worked-with {
+    height:730px;
     h2.small {
         
     }
@@ -126,6 +135,7 @@ p {
 /* Contact */
 
 .contact {
+    height:890px;
     h2 {
         
     }
@@ -144,6 +154,7 @@ p {
 /* Footer */
 
 .footer {
+    height:100px;
 }
 
 
