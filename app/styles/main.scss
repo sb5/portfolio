@@ -9,6 +9,11 @@
 }
 
 $blue : #1976d2;
+$blue-darker : #1565c0;
+
+a:hover {
+    text-decoration: none;
+}
 
 body {
     position:relative;
@@ -35,7 +40,12 @@ li {
     text-transform: uppercase;
     letter-spacing: .14em;
     line-height: 50px;
-    padding:0 20px;
+    padding:0 50px;
+    transition:0.3s all ease-in-out;
+}
+.btn:hover {
+    background: $blue-darker;
+    color:#fff;
 }
 h2 {
     text-transform: uppercase;
@@ -104,6 +114,11 @@ p {
         li:last-child a {
             background:$blue;
             border-radius:2px;
+            transition:all 0.3s ease-in-out;
+        }
+        li:last-child a:hover {
+            background:$blue-darker;
+            color:#fff;
         }
     }
 }
