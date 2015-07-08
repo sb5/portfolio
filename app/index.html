@@ -30,11 +30,14 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <!-- div class="overlay"></div> -->
 
     <header class="main-header">
         <div class="row-fluid">
             <div class="col-xs-6">
-                <a class="logo" href="#">Justin Bartlett</a>
+                <a class="logo" href="#">
+                    <img src="images/logo.png" alt="Justin Bartlett logo">
+                </a>
             </div>
             <div class="col-xs-6">
                 <nav class="main-nav">
@@ -49,10 +52,17 @@
     </header>
     <section class="hero">
         <div class="video">
-            
+            <video loop muted autoplay poster="img/videoframe.jpg" class="video-bg">
+                <source src="images/jbar.mp4" type="video/mp4">
+                <source src="video/big_buck_bunny.ogv" type="video/ogv">
+                <source src="video/big_buck_bunny.webm" type="video/webm">
+            </video>
         </div>
-        <div class="row-fluid clearfix">
+        <div class="video-black-bg">
+        </div>
+        <div class="row-fluid clearfix hero-text">
             <div class="col-md-12">
+                <img src="images/face.png" alt="Face">
                 <span>Hard-Working</span>
                 <h1>DC Web Developer</h1>
                 <p>Available for Freelance, Coaching, & Speaking</p>
@@ -107,7 +117,7 @@
                 <nav class="work-nav">
                     <ul>
                         <li><a href="#">U.S. Department of Veterans Affairs</a></li>
-                        <li><a href="#">National Credit Union Association</a></li>
+                        <li class="current"><a href="#">National Credit Union Association</a></li>
                         <li><a href="#">The Assets Framework</a></li>
                         <li><a href="#">Fig Leaf Software</a></li>
                         <li><a href="#">Woodpile Studios</a></li>
@@ -248,13 +258,13 @@
         </ul>
         <nav class="competencies-nav">
             <ul>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Strategy</a></li>
-                <li><a href="#">Code</a></li>
-                <li><a href="#">Native App</a></li>
-                <li><a href="#">Web App</a></li>
-                <li><a href="#">Website</a></li>
-                <li><a href="#">Visual Data</a></li>
+                <li><a href="#"><span>Design</span></a></li>
+                <li><a href="#"><span>Strategy</span></a></li>
+                <li><a href="#"><span>Code</span></a></li>
+                <li><a href="#"><span>Native App</span></a></li>
+                <li><a href="#"><span>Web App</span></a></li>
+                <li><a href="#"><span>Website</span></a></li>
+                <li><a href="#"><span>Visual Data</span></a></li>
             </ul>
         </nav>
     </section>
