@@ -262,12 +262,20 @@ p {
 
 .work {
     height: 930px;
+    position:relative;
+    .carousel-indicators {
+        li {
+            border-color:#3e4046;
+        }
+        bottom:-46px;
+        .active {
+            background: #3e4046;
+        }
+    }
     .work-nav {
         li {
-            height:40px;
+            cursor: pointer;
             margin-left:-20px;
-        }
-        li a {
             padding: 0 20px;
             font-size:16px;
             letter-spacing:.01em;
@@ -276,11 +284,28 @@ p {
             line-height:40px;
             color:#000;
         }
-        li.current a {
+        li.active {
             background: $blue;
             color:#fff;
             border-radius:2px;
-        }
+        } 
+    }
+    .mac-carousel-bg {
+        top:120px;
+        right:40%;
+        width:1156px;
+        height:615px;
+        background:url('../images/mac-bg.png') top left no-repeat;
+        position:absolute;
+        z-index: 9;
+    }
+    #macCarousel {
+        position:absolute;
+        top:48px;
+        left:204px;
+        width:748px;
+        height:468px;
+        background:#000;
     }
 }
 
