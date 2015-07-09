@@ -313,16 +313,56 @@ p {
 
 .competencies {
     background:#eee;
+    padding:0 80px;
     height: 830px;
+    position: relative;
+    h2 {
+        margin-top:98px;
+    }
     .skills li {
-        p {}
+        p {
+        line-height:20px;
+        }
         span {}
     }
     .competencies-nav {
-        li {}
-        li a span {
-            
+        position:absolute;
+        width:100%;
+        
+        /* ul {
+            position:absolute;
+            bottom:-100px;
+            margin:0 auto;
+        } */
+        li a {
+            color:#000;
+            span {
+                display:block;
+                height:100px;
+                width:100px;
+                background:url('../images/icon.png') center center no-repeat;
+                margin-bottom: 10px;
+            }
+            p {
+                display:block;
+                font-size:14px;
+                line-height: 20px;
+                letter-spacing: .14em;
+                text-transform: uppercase;
+                margin:0;
+            }
         }
+    }
+    .progress {
+        height:10px;
+        box-shadow: none;
+        background:#fff;
+        border-radius: 2px;
+        margin-bottom:30px;
+    }
+    .progress-bar {
+        box-shadow: none;
+        background:$blue;
     }
 }
 
@@ -330,15 +370,20 @@ p {
 
 .worked-with {
     height: 730px;
+    padding-top:104px;
     h2.small {
         font-size:14px;
         text-transform: uppercase;
         letter-spacing: .14em;
         line-height: 20px;
         text-align: center;
+        font-weight:300;
     }
     li {}
     li a {}
+    img {
+        margin-bottom: 20px;
+    }
 }
 
 /* Contact */
