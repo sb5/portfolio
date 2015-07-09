@@ -202,6 +202,17 @@ p {
 
 .logos {
     height: 120px;
+    padding-top:20px;
+    .carousel-control {
+        background:transparent;
+        color:#bdbdbd;
+        font-size:36px;
+        text-shadow: none;
+        top:10px;
+    }
+    .carousel-control:hover {
+        text-shadow: none;
+    }
 }
 
 /* Welcome */
