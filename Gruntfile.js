@@ -1,6 +1,6 @@
 /*jshint node:true*/
 
-// Generated on 2015-07-06 using
+// Generated on 2015-07-09 using
 // generator-webapp 0.6.2
 'use strict';
 

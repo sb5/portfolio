@@ -1,3 +1,9 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
 .overlay {
     position:absolute;
     z-index:99;
@@ -51,7 +57,8 @@ h2 {
     text-transform: uppercase;
     font-size:40px;
     line-height: 52px;
-    font-weight:200;
+    font-weight:400;
+    letter-spacing: .14em;
     margin:80px 0 40px;
 }
 p {
@@ -239,6 +246,7 @@ p {
         font-weight:200;
         text-transform: none;
         text-align: center;
+        letter-spacing: normal;
         a {
             color:#4caf50;
         }
@@ -273,6 +281,7 @@ p {
         }
     }
     .work-nav {
+        margin-top:30px;
         li {
             cursor: pointer;
             margin-left:-20px;
@@ -447,21 +456,6 @@ p {
         color:#000;
     }
 }
-
-/* video#bgvid {
-position: fixed;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: 100;
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
-background: url(polina.jpg) no-repeat;
-background-size: cover;
-} */
 
 
 @media (min-width: 1280px) {
