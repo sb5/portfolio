@@ -60,22 +60,32 @@ p {
     letter-spacing: .01em;
 }
 .quote {
+    margin-top:61px;
     img {
         height:50px;
         width:50px;
-        border-radius:50%;
-        background:#000;
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
     }
     p {
+        width: calc(100% - 70px);
+        display: inline-block;
         font-style:italic;
         font-size:15px;
         line-height:27px;
         letter-spacing:.02em;
+        float:right;
     }
     span {
+        padding-left:40px;
+        width: calc(100% - 70px);
+        display: inline-block;
+        float:right;
         font-size:11px;
         letter-spacing:.14em;
         text-transform: uppercase;
+        line-height: 27px;
     }
 }
 
