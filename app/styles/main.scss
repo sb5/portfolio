@@ -52,6 +52,7 @@ h2 {
     font-size:40px;
     line-height: 52px;
     font-weight:200;
+    margin:80px 0 40px;
 }
 p {
     font-size:16px;
@@ -218,23 +219,33 @@ p {
 /* Welcome */
 
 .welcome {
+    padding-top:74px;
+    height: 840px;
     h2 {
+        width:750px;
+        margin: 0 auto;
         font-size:28px;
         line-height: 50px;
         font-weight:200;
         text-transform: none;
+        text-align: center;
         a {
             color:#4caf50;
         }
     }
-    height: 840px;
+    img {
+        margin-top: 75px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Intro */
 
 .intro {
+    background: #eee url('../images/bg-assets.png') right top no-repeat;
     height: 690px;
-    
 }
 
 /* Work */
@@ -266,6 +277,7 @@ p {
 /* Core Competencies */
 
 .competencies {
+    background:#eee;
     height: 830px;
     .skills li {
         p {}
@@ -283,7 +295,13 @@ p {
 
 .worked-with {
     height: 730px;
-    h2.small {}
+    h2.small {
+        font-size:14px;
+        text-transform: uppercase;
+        letter-spacing: .14em;
+        line-height: 20px;
+        text-align: center;
+    }
     li {}
     li a {}
 }
@@ -292,6 +310,8 @@ p {
 
 .contact {
     height: 890px;
+    background:#353535;
+    color:#fff;
     h2 {}
     p {}
     .form-group {
@@ -320,3 +340,10 @@ transform: translateX(-50%) translateY(-50%);
 background: url(polina.jpg) no-repeat;
 background-size: cover;
 } */
+
+
+@media (min-width: 1280px) {
+    .container{
+        width: 1236px;
+    }
+}
