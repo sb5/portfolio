@@ -313,43 +313,51 @@ p {
 
 .competencies {
     background:#eee;
-    padding:0 80px;
-    height: 830px;
+    height: 800px;
     position: relative;
     h2 {
         margin-top:98px;
     }
-    .skills li {
-        p {
-        line-height:20px;
+    .skills {
+        padding:0 80px;
+        li {
+            p {
+                line-height:20px;
+            }
         }
         span {}
     }
     .competencies-nav {
         position:absolute;
         width:100%;
-        
-        /* ul {
-            position:absolute;
-            bottom:-100px;
-            margin:0 auto;
-        } */
-        li a {
-            color:#000;
-            span {
-                display:block;
-                height:100px;
-                width:100px;
-                background:url('../images/icon.png') center center no-repeat;
-                margin-bottom: 10px;
-            }
-            p {
-                display:block;
-                font-size:14px;
-                line-height: 20px;
-                letter-spacing: .14em;
-                text-transform: uppercase;
-                margin:0;
+        margin: 0 auto;
+        bottom:-75px;
+        ul {
+            display:block;
+            text-align: center;
+        }
+        li {
+            display:inline-block;
+            a {
+                color:#000;
+                span {
+                    display:block;
+                    margin: 0 auto;
+                    height:100px;
+                    width:100px;
+                    background:url('../images/icon.png') center center no-repeat;
+                    margin-bottom: 10px;
+                }
+                p {
+                    display:block;
+                    width:150px;
+                    text-align:center;
+                    font-size:14px;
+                    line-height: 20px;
+                    letter-spacing: .14em;
+                    text-transform: uppercase;
+                    margin:0;
+                }
             }
         }
     }
@@ -370,7 +378,7 @@ p {
 
 .worked-with {
     height: 730px;
-    padding-top:104px;
+    padding-top:124px;
     h2.small {
         font-size:14px;
         text-transform: uppercase;
